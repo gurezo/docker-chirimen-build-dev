@@ -1,4 +1,4 @@
-# docker-chirimen-build-dev
+# docker-chirimen-build-dev(now editting / 編集中)
 CHIRIMEN Build Enviroment Created by a docker
 
 ### The precondition / 前提条件
@@ -21,9 +21,9 @@ docker build -t tag-name .
 ex. / 例
 docker build -t chirimen-build-env .
 ```
-1. dokcer log in / dokcer ビルドスタート
+1. dokcer run / dokcer 実行
 ```
-docker build -t chirimen-build-env .
+docker run -it tag-name .
 ex. / 例
-docker build -t chirimen-build-env .
+docker run -it chirimen-build-env
 ```
