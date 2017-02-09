@@ -10,6 +10,5 @@ RUN apt-get install -y --no-install-recommends autoconf2.13 bison bzip2 ccache c
 RUN apt-get install -y zlib1g:i386 zlib1g-dev:i386 libgl1-mesa-dev libx11-dev make zip lzop libxml2-utils openjdk-7-jdk nodejs unzip python
 RUN ccache -M 50G
 RUN git clone https://github.com/chirimen-oh/B2G.git
-RUN cd ~/B2G
 RUN apt-get -y autoremove
 RUN apt-get -y autoclean
