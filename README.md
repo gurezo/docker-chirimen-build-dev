@@ -7,14 +7,14 @@ CHIRIMEN Build Enviroment Created by a docker
 - docker was already installed / docker をインストール済み
 - docker command was already learned / docker コマンドを学習済み
 
-### Build Enviroment Created Step / ビルド環境構築手順
+### CHIRIMEN Build Enviroment Created Step on docker / docker 上に CHIRIMEN ビルド環境構築手順
 * git clone / git クローン
 ```
 $ git clone https://github.com/gurezo/docker-chirimen-build-dev.git
 ```
 * directory move / ディレクトリ移動
 ```
-$ cd some directory
+$ cd docker-chirimen-build-dev
 ```
 * dokcer build start / dokcer ビルドスタート
 ```
