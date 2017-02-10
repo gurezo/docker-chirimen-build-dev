@@ -17,13 +17,13 @@ cd some directory
 ```
 1. dokcer build start / dokcer ビルドスタート
 ```
-docker build -t tag-name .
+docker build -t image-name .
 ex. / 例
 docker build -t chirimen-build-env .
 ```
 1. dokcer run / dokcer 実行
 ```
-docker run -it tag-name .
+docker run -it image-name .
 ex. / 例
 docker run -it chirimen-build-env
 ```
