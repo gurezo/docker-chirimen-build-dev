@@ -43,7 +43,7 @@ $ git config --global http.postBuffer 524288000
 ```
 * config.sh run / config.sh 実行
 ```
-$ config.sh chirimen
+$ ./config.sh chirimen
 ```
 * build.sh run / build.sh 実行
 ```
