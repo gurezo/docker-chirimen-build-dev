@@ -35,7 +35,9 @@ $ docker run -it chirimen-build-env
 $ cd B2G/
 ```
 * git command run / git コマンド実行
-  - configuration e-mail & username / git のメールとユーザー名の設定
+  - configuration e-mail / git のメールの設定
+  - configuration username / git のユーザー名の設定
+  - configuration http.postBuffer / git の http.postBuffer の設定
 ```
 $ git config --global user.email "you@example.com"
 $ git config --global user.name "Your Name"
