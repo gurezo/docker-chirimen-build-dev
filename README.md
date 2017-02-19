@@ -39,6 +39,7 @@ $ cd B2G/
 ```
 $ git config --global user.email "you@example.com"
 $ git config --global user.name "Your Name"
+$ git config --global http.postBuffer 524288000
 ```
 * config.sh run / config.sh 実行
 ```
